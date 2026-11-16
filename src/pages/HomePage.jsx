@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
+import HomeSearch from '../components/HomeSearch';
 import PropertyCard from '../components/PropertyCard';
 import { getFeaturedProperties } from '../data/properties';
 import { ArrowUpRight, ChevronRight, Check } from 'lucide-react';
@@ -51,10 +52,15 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-brand-cream">
-      {/* Massive Cinematic Hero Section */}
+      {/* 1. Grand Unobstructed Hero Section (Full Viewport, No Box Blocking Imagery) */}
       <Hero />
 
-      {/* Minimalist Milestone Stats Bar */}
+      {/* 2. Search Console Moved to the Bottom (Directly Below the Hero Section) */}
+      <div id="search-section">
+        <HomeSearch />
+      </div>
+
+      {/* 3. Minimalist Milestone Stats Bar */}
       <section className="bg-white border-b border-brand-border py-12">
         <div className="max-w-6xl mx-auto px-6 sm:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left">
@@ -94,7 +100,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Featured Properties Showcase */}
+      {/* 4. Featured Properties Showcase */}
       <section className="py-20 lg:py-28 max-w-7xl mx-auto px-6 sm:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 pb-6 border-b border-brand-border">
           <div>
@@ -148,7 +154,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Curated Architectural Collections */}
+      {/* 5. Curated Architectural Collections */}
       <section className="py-20 bg-white border-y border-brand-border">
         <div className="max-w-7xl mx-auto px-6 sm:px-8">
           <div className="max-w-2xl mb-14">
@@ -195,7 +201,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Advisory Pillars / Why Urban Estates */}
+      {/* 6. Advisory Pillars / Why Urban Estates */}
       <section className="py-20 lg:py-28 max-w-7xl mx-auto px-6 sm:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-5">
@@ -303,7 +309,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Client Endorsements / Testimonials */}
+      {/* 7. Client Endorsements / Testimonials */}
       <section className="py-20 bg-brand-surface border-y border-brand-border">
         <div className="max-w-5xl mx-auto px-6 sm:px-8 text-center">
           <span className="text-[10px] uppercase tracking-ultra text-brand-accent font-medium block mb-2">
@@ -359,7 +365,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Private Inquiry CTA Banner */}
+      {/* 8. Private Inquiry CTA Banner */}
       <section className="py-20 lg:py-24 bg-brand-dark text-white">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 text-center">
           <span className="text-[10px] uppercase tracking-ultra text-brand-accent font-medium block mb-2">
