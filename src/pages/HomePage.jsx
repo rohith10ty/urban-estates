@@ -51,8 +51,48 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-brand-cream">
-      {/* Hero Section */}
+      {/* Massive Cinematic Hero Section */}
       <Hero />
+
+      {/* Minimalist Milestone Stats Bar */}
+      <section className="bg-white border-b border-brand-border py-12">
+        <div className="max-w-6xl mx-auto px-6 sm:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left">
+            <div>
+              <div className="text-3xl sm:text-4xl font-light text-brand-dark tracking-tight mb-1">
+                $4.8B<span className="text-brand-accent font-normal">+</span>
+              </div>
+              <p className="text-xs uppercase tracking-wider text-brand-muted">
+                Transacted Volume
+              </p>
+            </div>
+            <div>
+              <div className="text-3xl sm:text-4xl font-light text-brand-dark tracking-tight mb-1">
+                98<span className="text-brand-accent font-normal">%</span>
+              </div>
+              <p className="text-xs uppercase tracking-wider text-brand-muted">
+                Exclusive Mandates
+              </p>
+            </div>
+            <div>
+              <div className="text-3xl sm:text-4xl font-light text-brand-dark tracking-tight mb-1">
+                14
+              </div>
+              <p className="text-xs uppercase tracking-wider text-brand-muted">
+                Global Metropolises
+              </p>
+            </div>
+            <div>
+              <div className="text-3xl sm:text-4xl font-light text-brand-dark tracking-tight mb-1">
+                100<span className="text-brand-accent font-normal">%</span>
+              </div>
+              <p className="text-xs uppercase tracking-wider text-brand-muted">
+                Architectural Vetting
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Featured Properties Showcase */}
       <section className="py-20 lg:py-28 max-w-7xl mx-auto px-6 sm:px-8">

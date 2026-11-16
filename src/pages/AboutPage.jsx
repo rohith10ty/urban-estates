@@ -8,28 +8,28 @@ export default function AboutPage() {
       name: 'Marcus Vance',
       role: 'Founder & Managing Partner',
       hub: 'Beverly Hills / Los Angeles',
-      image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=80',
       bio: 'Over two decades representing modernist estates, cantilevered compounds, and private family offices across California and Aspen.',
     },
     {
       name: 'Elena Rostova',
       role: 'Partner, Manhattan Trophy Portfolios',
       hub: 'New York City',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=80',
       bio: 'Specialist in Tribeca cast-iron spires, Central Park penthouses, and landmark architectural conversions.',
     },
     {
       name: 'Charlotte St. Claire',
       role: 'Head of Prime European Residential',
       hub: 'London Mayfair',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&auto=format&fit=crop&q=80',
       bio: 'RICS Fellow guiding prime central London freehold acquisitions and historic English country estates.',
     },
     {
       name: 'Tariq Al-Mansoor',
       role: 'Senior Partner, Middle East & Gulf Frontages',
       hub: 'Dubai DIFC',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&auto=format&fit=crop&q=80',
       bio: 'Advising sovereign funds and international principals on bespoke waterfront compounds and Palm Jumeirah estates.',
     },
   ];
@@ -198,7 +198,7 @@ export default function AboutPage() {
                   <img
                     src={partner.image}
                     alt={partner.name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 <span className="text-[10px] uppercase tracking-widest text-brand-accent block mb-1">

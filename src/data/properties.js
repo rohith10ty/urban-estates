@@ -60,7 +60,7 @@ export const properties = [
       title: "Senior Vice President, Private Estates",
       phone: "+1 (310) 849-2100",
       email: "m.vance@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=80",
       license: "DRE #01948210"
     }
   },
@@ -123,7 +123,7 @@ export const properties = [
       title: "Managing Director, Manhattan Prime",
       phone: "+1 (212) 555-0192",
       email: "e.rostova@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=80",
       license: "NY-DOS #4928104"
     }
   },
@@ -185,7 +185,7 @@ export const properties = [
       title: "Partner, Waterfront Advisory",
       phone: "+1 (305) 912-7740",
       email: "m.alvarez@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=800&auto=format&fit=crop&q=80",
       license: "FL-DBPR #340918"
     }
   },
@@ -246,7 +246,7 @@ export const properties = [
       title: "Senior Vice President, Private Estates",
       phone: "+1 (310) 849-2100",
       email: "m.vance@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=80",
       license: "DRE #01948210"
     }
   },
@@ -306,7 +306,7 @@ export const properties = [
       title: "Head of Prime London Residential",
       phone: "+44 20 7946 0881",
       email: "c.stclaire@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&auto=format&fit=crop&q=80",
       license: "RICS #0849201"
     }
   },
@@ -367,7 +367,7 @@ export const properties = [
       title: "Senior Partner, Middle East & Gulf Region",
       phone: "+971 4 398 2200",
       email: "t.almansoor@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&auto=format&fit=crop&q=80",
       license: "RERA #39281"
     }
   },
@@ -427,7 +427,7 @@ export const properties = [
       title: "Managing Director, Manhattan Prime",
       phone: "+1 (212) 555-0192",
       email: "e.rostova@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=80",
       license: "NY-DOS #4928104"
     }
   },
@@ -485,7 +485,7 @@ export const properties = [
       title: "Head of Prime London Residential",
       phone: "+44 20 7946 0881",
       email: "c.stclaire@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&auto=format&fit=crop&q=80",
       license: "RICS #0849201"
     }
   },
@@ -547,7 +547,7 @@ export const properties = [
       title: "Senior Vice President, Private Estates",
       phone: "+1 (310) 849-2100",
       email: "m.vance@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=80",
       license: "DRE #01948210"
     }
   },
@@ -606,7 +606,7 @@ export const properties = [
       title: "Senior Vice President, Private Estates",
       phone: "+1 (310) 849-2100",
       email: "m.vance@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=80",
       license: "DRE #01948210"
     }
   },
@@ -664,7 +664,7 @@ export const properties = [
       title: "Managing Director, Manhattan Prime",
       phone: "+1 (212) 555-0192",
       email: "e.rostova@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=80",
       license: "NY-DOS #4928104"
     }
   },
@@ -722,7 +722,7 @@ export const properties = [
       title: "Partner, Waterfront Advisory",
       phone: "+1 (305) 912-7740",
       email: "m.alvarez@urbanestates.com",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=800&auto=format&fit=crop&q=80",
       license: "FL-DBPR #340918"
     }
   }
